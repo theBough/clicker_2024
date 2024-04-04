@@ -22,6 +22,7 @@ function generateRndNum() {
 }
 function squareStuff() {
   s.display();
+  s.isClicked()
 }
 function textStuff() {
   push();
