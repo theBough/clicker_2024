@@ -1,8 +1,11 @@
 let myFont;
 let s;
+let rnd;
 function setup() {
   createCanvas(400, 400);
   myFont = loadFont("Anta.ttf")
+  rnd  = Math.random();
+  console.log(rnd)
   s = new Square(190,190,20,20,"#00B4D8")
 }
 
